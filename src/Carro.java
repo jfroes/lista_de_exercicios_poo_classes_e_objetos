@@ -39,8 +39,10 @@ public class Carro {
 
     //Exercicio 04: Implemente acelerar() e frear() na classe Carro.
 
-    public void acelerar(){
-        System.out.println("acelerando...");
+//    Exercicio 16: Faça Carro com acelerar(double velocidade).
+
+    public void acelerar(double velocidade){
+        System.out.println("velocidade atual: " + velocidade);
     }
 
     public void frear(){
