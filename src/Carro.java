@@ -4,6 +4,15 @@ public class Carro {
     private String modelo;
     private Integer ano;
 
+    public Carro() {
+    }
+
+    public Carro(String marca, String modelo, Integer ano) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+    }
+
     public String getMarca() {
         return marca;
     }
