@@ -2,6 +2,7 @@ public class Pessoa {
     private String nome;
     private Integer idade;
 
+//    Exercicio 12: Adicione construtor à classe Pessoa.
     public Pessoa() {
     }
 
