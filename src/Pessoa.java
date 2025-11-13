@@ -17,4 +17,8 @@ public class Pessoa {
     public void setIdade(Integer idade) {
         this.idade = idade;
     }
+
+    public void falar (){
+        System.out.println("Olá");
+    }
 }
