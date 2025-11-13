@@ -27,4 +27,14 @@ public class Carro {
     public void setAno(Integer ano) {
         this.ano = ano;
     }
+
+    //Exercicio 04: Implemente acelerar() e frear() na classe Carro.
+
+    public void acelerar(){
+        System.out.println("acelerando...");
+    }
+
+    public void frear(){
+        System.out.println("freando...");
+    }
 }
